@@ -1,9 +1,8 @@
-//> Appendix II expr
 package lox;
 
 import java.util.List;
 
-abstract public class Expr {
+abstract class Expr {
   interface Visitor<R> {
     R visitAssignExpr(Assign expr);
     R visitBinaryExpr(Binary expr);
