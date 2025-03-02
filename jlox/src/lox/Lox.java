@@ -86,6 +86,5 @@ public class Lox {
         } else {
             runPrompt();
         }
-
     }
 }
